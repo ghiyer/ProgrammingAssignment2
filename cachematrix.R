@@ -1,3 +1,4 @@
+install.packages("matrixcalc")
 library("matrixcalc")
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
